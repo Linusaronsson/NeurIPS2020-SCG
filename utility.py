@@ -3,7 +3,7 @@ import numpy as np
 import scipy.sparse as sp
 from scipy.sparse.linalg import eigsh, norm
 from scipy.stats import mode
-from blist import sorteddict
+#from blist import sorteddict
 
 DATASET_LIST = ['wow8', 'bitcoin', 'wikivot', 'referendum', 'slashdot', 'wikicon', 'epinions','wikipol','wikicon_aug','wikicon_noised_8']
 ROUNDING_LIST = ['min_angle', 'randomized', 'max_obj', 'bansal']
